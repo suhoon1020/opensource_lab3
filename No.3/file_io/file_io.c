@@ -12,6 +12,7 @@ int main(){
     while((n=read(0,buf,BUFSIZE))>0){
         write(1,buf,n);
     }
+    
     fprintf(stderr,"here is file end.\n");
     exit(0);
 }

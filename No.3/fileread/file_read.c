@@ -11,7 +11,7 @@ int main()
     ssize_t nread;
     long total=0;
 
-    if((filedes=open("anotherfile",O_RDONLY))==-1){
+    if((filedes=open("anotherfile.txt",O_RDONLY))==-1){
         printf("오류!\n");
         exit(1);
     }

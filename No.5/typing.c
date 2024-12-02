@@ -12,7 +12,7 @@ int main(void){
 	int fd;
 	int nread, cnt=0 ,errcnt=0;
 	int phrase_len;	
-	char ch, text[] = "If you need another phrase, you can give a text file.";
+	char ch, text[] = "typing test this is only test";
 	struct termios init_attr, new_attr;
 	time_t start_time, end_time;
 
